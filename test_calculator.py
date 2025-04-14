@@ -57,7 +57,7 @@ class TestCalculator(unittest.TestCase):
     #     fill in code
     def test_log_invalid_base(self):
         with self.assertRaises(ValueError):
-            logarithm(0, 5)
+            logarithm(1, 5)
     # ##########################
     
     ######## Partner 1
