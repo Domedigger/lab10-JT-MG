@@ -11,6 +11,7 @@ class TestCalculator(unittest.TestCase):
     #     fill in code
     def test_add(self):
         self.assertEqual(add(5, 3), 8)
+        
     # def test_subtract(self): # 3 assertions
     #     fill in code
     def test_sub(self):
@@ -52,6 +53,7 @@ class TestCalculator(unittest.TestCase):
     def test_log_invalid_base(self):
         with self.assertRaises(ValueError):
             logarithm(0, 5)
+        with self.assertRaises(ValueError):
             logarithm(1,3)
     # ##########################
     
