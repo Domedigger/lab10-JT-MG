@@ -1,9 +1,3 @@
-"""
-calculator.py
-- Defines functions used to create a simple calculator
-
-One function per operation, in order.
-"""
 # https://github.com/Domedigger/lab10-JT-MG.git
 # Partner 1: Jordon Taylor
 # Partner 2: Morgan Granade
