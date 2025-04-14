@@ -26,12 +26,9 @@ def exp(a,b):
     return a**b
 
 def square_root(a):
-    try:
-        if a < 0:
-            raise ValueError
-        return math.sqrt(a)
-    except ValueError:
-        raise
+    if a < 0:
+        raise ValueError
+    return math.sqrt(a)
 
 def hypotenuse(a, b):
     try:
