@@ -4,8 +4,25 @@ calculator.py
 
 One function per operation, in order.
 """
-# First example
+# https://github.com/Domedigger/lab10-JT-MG.git
+# Partner 1: Jordon Taylor
+# Partner 2: Morgan Granade
+
 import math
+
+def square_root(a):
+    try:
+        if a < 0:
+            raise ValueError
+        return math.sqrt(a)
+    except ValueError:
+        raise
+
+def hypotenuse(a, b):
+    try:
+        return math.hypot(a, b)
+    except:
+        raise
 
 def add(a, b): return a + b
 
@@ -24,4 +41,3 @@ def logarithm(a, b):
     return math.log(b, a)
 
 def exponent(a, b): return a ** b
-
