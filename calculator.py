@@ -18,7 +18,7 @@ def logarithm(a, b):
         raise ValueError
     return math.log(b, a)
 
-def div(a, b):
+def divide(a, b):
     if a == 0:
         raise ZeroDivisionError
     return b / a
