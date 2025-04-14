@@ -31,10 +31,7 @@ def square_root(a):
     return math.sqrt(a)
 
 def hypotenuse(a, b):
-    try:
         return math.hypot(a, b)
-    except:
-        raise
 
 
 
